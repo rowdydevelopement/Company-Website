@@ -6,8 +6,8 @@
 <button onclick="alert('THANK YOU FOR BEING OUR CUSTOMER!')">
   <a href="contact.html">Contact Us</a>
 </button>
-<h1>
-  ROWDY DEVELOPEMENT
+<h1 id="h1" onmouseenter="love()" onmouseleave="norm()">
+  ROWDY DEVELOPMENT
   <h1>
     <style>
       h1 {
@@ -24,5 +24,14 @@
       beautiful and functional.A little rowdy never hurts.
     </h4>
     <br />
-  </h1>
-</h1>
+<script>
+  function love() {
+    let h1 = document.getElementById("h1");
+    h1.textContent = "We Love Our Customers";
+  }
+  function norm() {
+    let h1 = document.getElementById("h1");
+    h1.textContent = "Rowdy Development";
+  }
+
+</script>
