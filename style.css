@@ -4,7 +4,7 @@ h1 {
   color: rgba(0, 0, 175, 0.753);
   border-radius: 30px;
 }
-h1:hover{rotate:180deg;
+h1:hover{
   background-color: rgb(94, 180, 255);
   color: blue;
   font-size: 40px;}
